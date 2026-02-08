@@ -1,0 +1,34 @@
+ Functional Requirements
+1. Home Page
+• Hero banner with Sri Lanka highlights (Sigiriya, Galle, Ella train).
+• Intro text: “Discover Sri Lanka.”
+• Navigation bar linking to all pages.
+• Featured destinations preview.
+2. Destinations Page
+• Grid/list of 4–6 destinations (Kandy, Nuwara Eliya, Galle, Jaffna, Colombo).
+• Each card: image + short description.
+• Optional filter by region.
+3. Travel Tips Page
+• Sections for visa, transport, currency, weather.
+• Icons for each category.
+• Simple, practical layout.
+4. Chatbot Page
+• Dedicated chatbot interface (chat window).
+• Floating chatbot widget available across all pages.
+• Users can ask questions like:
+o “Best time to visit Kandy?”
+o “How to travel from Colombo to Jaffna?”
+• Backend API integration for responses.
+5. About/Contact Page
+• Short “About Sri Lanka” or “About this site.”
+• Contact form (Name, Email, Message).
+• Links to portfolio/GitHub.
+ Non-Functional Requirements
+• Performance: Fast loading, optimized images, lightweight components.
+• Usability: Responsive design (mobile, tablet, desktop).
+• Scalability: Easy to add new destinations or chatbot features.
+• Maintainability: Modular React components, clean file structure.
+• Security: Basic form validation, safe API calls.
+ Tech Stack
+• Frontend: React, TailwindCSS, React Router.
+• Backend (Chatbot): Python (Flask or FastAPI).
